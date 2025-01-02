@@ -10,7 +10,7 @@ eureka:
     hostname: ${eureka.instance.hostname:localhost}  # Automatically uses the system's hostname or defaults to localhost
 
   microservice:
-     payment-service:
+     PaymentService:
       endpoints:
        endpoint:
         uri :http://PaymentService/payment/doPayment
